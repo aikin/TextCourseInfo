@@ -6,13 +6,7 @@
             "desc": [
                 "<p>Let's look at a basic example. This example should be familiar(and predictable) to just about anyone with a bit of programming experience:</p>"
             ],
-            "code": "function() {   
-                        var a = 10;
-                        if (a > 5) { 
-                            a = 7; 
-                        }
-                            alert(a)
-                    }",
+            "code": "function() {var a = 10;if (a > 5){a = 7;}alert(a)}",
             "question": {
                 "content": "When executed, what Value will be alerted to the screen?",
                 "options": ["7", "10", "null", "undefined"]
