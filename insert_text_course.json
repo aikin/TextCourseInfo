@@ -20,9 +20,9 @@
             "type": "topic",
             "order": 0
         },
-        "extra": [
-            {"section": "angular: template view"}
-        ]
+        "extra": {
+            "section": "angular: template view"
+            }
     },
 
     {
