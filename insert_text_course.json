@@ -37,7 +37,7 @@
                 "<p>When Javascript comes across a global variable, it needs somewhere to put it.  It needs somewhere that everywhere else on the page can access.  So, it uses the window object.  This object is around for the entire lifetime of the page, and everything can access it, so it's perfect!</p>"
             ],
             "type": "text",
-            "order": 2
+            "order": 1
         },
         "extra": {
             "section": "angular: template view"
