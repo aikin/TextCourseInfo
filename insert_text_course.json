@@ -20,9 +20,9 @@
             "type": "topic",
             "order": 0
         },
-        "extra": {
-            "section": "angular: template view"
-        }
+        "extra": [
+            {"section": "angular: template view"}
+        ]
     },
 
     {
@@ -51,7 +51,12 @@
             "desc": [
                 "<p>That first one probably wasn't too bad, but this next one might be a bit surprising:</p>"
             ],
-            "code": "function() { if(true) { var a = 5;} alert(a);}",
+            "code": "function() { 
+                        if(true) { 
+                            var a = 5;
+                        } 
+                        alert(a);
+                     }",
             "question": {
                 "content": "Ok, so what would be the value alerted by this function?",
                 "options": ["0", "5", "null", "undefined"]
