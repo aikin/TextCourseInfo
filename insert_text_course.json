@@ -32,7 +32,7 @@
             "desc": [
                 "<p>Okay, that's a bit odd, you might be saying, But what if you're not in a function? Are there global variables?  Good question!  I wish I'd thought of it myself.</p>",
                 "<p>Let's look at some code:</p>",
-                "<pre><code class='javascript'>function () { a = 3; alert(a); } </code></pre>",
+                "<pre><code class='javascript'>function () {\r  a = 3; \r  alert(a); \r}</code></pre>",
                 "<p>Now, what exactly is a global variable?  Where does it actually reside?</p>",
                 "<p>When Javascript comes across a global variable, it needs somewhere to put it.  It needs somewhere that everywhere else on the page can access.  So, it uses the window object.  This object is around for the entire lifetime of the page, and everything can access it, so it's perfect!</p>"
             ],
@@ -51,7 +51,7 @@
             "desc": [
                 "<p>That first one probably wasn't too bad, but this next one might be a bit surprising:</p>"
             ],
-            "code": "function() { if(true) { var a = 5;} alert(a);}",
+            "code": "function() {\r  if (true) {\r    var a = 5;\r  }\r  alert(a);\r}",
             "question": {
                 "content": "Ok, so what would be the value alerted by this function?",
                 "options": ["0", "5", "null", "undefined"]
