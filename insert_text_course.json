@@ -21,7 +21,7 @@
             "order": 0
         },
         "extra": {
-            "section": "angular: template view"
+            "section": { "name":  "angular: template view" }
             }
     },
 
