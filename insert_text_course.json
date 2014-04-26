@@ -6,7 +6,7 @@
             "desc": [
                 "<p>Let's look at a basic example. This example should be familiar(and predictable) to just about anyone with a bit of programming experience:</p>"
             ],
-            "code": "function() {\r\n    var a = 10;\r\n    if (a > 5)\r\n {\r\n        a = 7;\r\n    } \r\n    alert(a)}",
+            "code": "function() {\r\n\tvar a = 10;\r\n\tif (a > 5)\r\n {\r\n\t\ta = 7;\r\n\t} \r\n\talert(a);\r\n}",
             "question": {
                 "content": "When executed, what Value will be alerted to the screen?",
                 "options": ["7", "10", "null", "undefined"]
