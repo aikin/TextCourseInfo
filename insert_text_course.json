@@ -6,7 +6,7 @@
             "desc": [
                 "<p>Let's look at a basic example. This example should be familiar(and predictable) to just about anyone with a bit of programming experience:</p>"
             ],
-            "code": "\r\tfunction() {\r\tvar a = 10;\r\tif (a > 5) {\r\ta = 7;\r\t} \r\talert(a);\r\t}",
+            "code": "\rfunction() {\r\tvar a = 10;\r\tif (a > 5) {\r\ta = 7;\r\t} \r\talert(a);\r}",
             "question": {
                 "content": "When executed, what Value will be alerted to the screen?",
                 "options": ["7", "10", "null", "undefined"]
