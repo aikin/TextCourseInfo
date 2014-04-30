@@ -21,7 +21,7 @@
             "order": 0
         },
         "extra": {
-            "section": { "name":  "angular: template view" }
+            "section": { "name":  "angular: test" }
             }
     },
 
@@ -40,7 +40,7 @@
             "order": 1
         },
         "extra": {
-            "section": { "name":  "angular: template view" }
+            "section": { "name":  "angular: test" }
         }
     },
 
@@ -67,7 +67,7 @@
             "order": 2
         },
         "extra": {
-            "section": { "name":  "angular: template view" }
+            "section": { "name":  "angular: test" }
         }
     }
 ]
